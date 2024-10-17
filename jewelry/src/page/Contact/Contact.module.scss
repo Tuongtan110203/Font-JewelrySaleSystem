@@ -1,0 +1,39 @@
+.img-contact {
+    img {
+      margin-top: 120px;
+      width: var(--default-layout-width-height);
+      height: auto;
+    }
+  }
+  
+  .img-all,
+  .img-all1 {
+    margin-top: 25px;
+    img {
+      width: 19px;
+    }
+    a {
+      color: black;
+    }
+  }
+  
+  .contact-link {
+    margin-left: 11px;
+    &:hover {
+      text-decoration: none;
+      color: #a2041b;
+    }
+  }
+
+  .map-container {
+    margin-top: 20px;
+    text-align: center;
+    
+    iframe {
+      width: 100%;
+      max-width: 100%;
+      border: none;
+    }
+  }
+  
+  

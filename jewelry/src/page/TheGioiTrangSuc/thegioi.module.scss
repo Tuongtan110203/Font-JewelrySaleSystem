@@ -1,0 +1,64 @@
+.the-gioi {
+    
+        margin-top: 119px;
+        width: 1519.5px;
+        height: auto; 
+}
+//tamnhin
+.tam-nhin {
+    img{
+        height: auto;
+        width: 933px;
+    }
+   
+}
+.gia-tri,.quy-trinh{
+    img{
+        width: 800px;
+        margin-top: 75px;
+        margin-left: 75px;
+    }
+}
+//gia tri
+.wrapper-gia-tri {
+    background-color: #fff4e8;
+    height: 525px;
+}
+
+.content-gia-tri h2 ,.content-quy-trinh h2{
+    margin-top:165px;
+}
+//quy trinh
+.wrapper-quy-trinh{
+    height: 499px;
+    background-color: #dfdfdf;
+}
+
+//end
+.text-color-red{
+    color: #a2041b;
+}
+
+.px535px{
+    padding: 0 535px;
+}
+
+.view-more-tam-nhin, .view-more-gia-tri,.view-more-quy-trinh,.view-more-thanh-tuu {
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: red;
+        text-decoration: none;
+    }
+  }
+// thanh tuu
+.thanh-tuu{
+    margin-top: 75px;
+    text-align: center;
+    padding: 0 495px;
+
+}
+.logo-thanh-tuu{
+    width: 1519px;
+    height: auto;
+}

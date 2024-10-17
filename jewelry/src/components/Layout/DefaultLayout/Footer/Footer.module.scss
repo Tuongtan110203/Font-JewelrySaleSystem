@@ -1,0 +1,89 @@
+.wrapper {
+    min-height: var(--default-layout-height-footer);
+    background-color: #a2041b;
+    color: #f8c883;
+    padding: 0 133px;
+    margin-top: 30px;
+    p {
+        margin-top: 22px;
+    }
+  
+    .menu-ho-tro ul {
+        list-style-type: none;
+        padding-left: 0;
+      
+        li {
+            margin-bottom: 10px;
+          
+            a {
+                margin-bottom: 15px;
+                color: #fff4e8;
+                letter-spacing: .6px;
+                text-decoration: none;
+              
+                &:hover {
+                    color: #f8c883;
+                }
+            }
+        }
+    }
+  
+    .tin-moi-nhat {
+        p {
+            color: #fff4e8;
+        }
+    }
+  
+    // Email
+    .email {
+        margin-top: 5px;
+        border-bottom: 1px solid #f8c883;
+    }
+  
+    // Social icons
+    .social-icons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        width: 50px;
+      
+        svg {
+            margin-left: 15px;
+            path {
+                fill: #fff;
+            }
+          
+            &:hover {
+                path {
+                    fill: #f8c883;
+                }
+            }
+        }
+    }
+    //BoCongThuong
+    .bo-cong-thuong{
+        max-height: 47px;
+        height: 70px;
+        margin-left: 99px;
+    }
+    //bottom
+    .bottom {
+        border-top: 2px solid #d60726;       
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bottom-logo{
+       margin-top: 5px;
+    }
+    .end-logo{
+        display: flex;
+        justify-content: flex-end;   
+    }
+    .company-info p{
+        color: #fff4e8;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,248 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    min-width: var(--default-layout-width-height);
+    min-height: var(--default-layout-header-height);
+    background-color: #fff4e8;
+    border-top: 4px solid #a2041b;
+}
+
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+//logo
+.logo {
+    display: flex;
+    align-items: center;
+    margin: var(--margin-top-left);
+    text-decoration: none; 
+}
+
+
+.image {
+    width: 24px;
+    height: 19px;
+    margin-right: 11px;
+    margin-bottom: 7px;
+  }
+ 
+.logo span {
+    font-size: var(--font-size-normal); 
+    line-height: 23px; 
+    color: #6f6f6f;
+    text-decoration: none; 
+  }  
+
+//end logo
+
+
+.brand{
+    margin-top: 16px;
+    margin-left: -50px;
+}
+//searh
+.search{
+    display: flex;
+    align-items: center;
+   margin: var(--margin-top-right);
+}
+.search path{
+    color: #6f6f6f;
+}
+
+.search-icon:hover svg path {
+    color: #a2041b; 
+    
+}
+
+.tym-icon:hover svg path {
+    color: #a2041b; 
+}
+
+
+.search :first-child {
+    margin-right: 15px; 
+}
+//end search
+
+///////menu
+.wrapper-menu {
+    min-width: var(--default-layout-width-height);
+    min-height: var(--default-layout-menu-height);
+    background-color: #fff4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.menu a {
+    margin: 0 10px 0 10px;
+    padding: 15px 49px;
+    text-decoration: none;
+    color: #786f6f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+.menu a:hover,.lg:hover span {
+    color: #a2041b;
+   // border-bottom: 2px solid #a2041b;
+   cursor: pointer;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu li {
+    margin-right: 20px; 
+    position: relative;
+
+}
+.menu .dropdown-content-about {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: -225%;
+    background-color: #fff4e8;
+    padding: 10px;
+    border: 2px solid #ccc;
+    z-index: 9999; 
+    height: 350px;
+    width: 1599px;  
+  }
+.menu li:hover .dropdown-content-about {
+    display: block;
+  }
+
+  
+//stone
+.menu .dropdown-content-stone {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: -255%;
+    background-color: #fff4e8;
+    padding: 10px;
+    border: 2px solid #ccc;
+    z-index: 1000; 
+    height: 350px;
+    width: 1528px;  
+  }
+.menu li:hover .dropdown-content-stone {
+    display: block;
+  }
+//category
+.menu .dropdown-content-category {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: -399%;
+    background-color: #fff4e8;
+    padding: 10px;
+    border: 2px solid #ccc;
+    z-index: 1000; 
+    height: 350px;
+    width: 1712px;  
+    margin-left: 140px;
+  }
+.menu li:hover .dropdown-content-category {
+    display: block;
+  }
+ //end cateogfry 
+//end menu
+//image-about
+.image-about{
+    width: 666px;
+    height: auto;
+    margin-right: 130px;
+    margin-bottom: 0px;
+    border-style: groove solid;
+  }
+
+.image-about-category{
+    margin-right: 270px;
+    width: 666px;
+    height: auto;
+    margin-bottom: 52px;
+    border-style: groove solid;
+}
+
+  .vertical-menu {
+    display: block !important; 
+    
+  }
+  //tam nhin va thuong hieu
+//gold-price
+.gold-price{
+    background-color: #fff4e8;
+    height: 239px;
+    h2{
+        color: #3e3d42;
+        margin-bottom: 125px;
+    }
+}
+.update-gold{
+   //margin-left: 111px;
+}
+.text-color-red{
+    color: #a2041b;
+}
+// table
+.type-gold-thead{
+    margin-left: 115px;
+    th{
+    border-bottom: 1px solid #a2041b;
+    color: #a2041b;
+    padding: 8px 8px;
+    }
+    td{
+        padding: 8px 8px;
+    }
+}
+///////////search
+.search-logic{
+    background-color: #fff4e8;
+    min-height: 99px;
+    input{
+        border: none;
+        border-bottom: 1px solid #f0c98d;
+        color: #3e3d42;
+        font-size: 32px;
+        font-family: 'NTJ Sans', sans-serif;
+        background: 0 0;
+        width: 100%;
+    }
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+    .search-input {
+      padding-right: 1rem;
+    }
+  
+    .search-icon {
+      position: absolute;
+      right: 0.5rem; 
+      color: #000;
+      margin-right: 11px;
+    }
+  }
+  

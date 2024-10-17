@@ -1,0 +1,61 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  
+  --margin-top-left: 35px 0 0 35px;
+  --margin-top-right: 35px 35px 0 0;
+  --default-layout-header-height: 70px;
+  --default-layout-menu-height: 54px;
+  --default-layout-menu-width: 1400px;
+  --default-layout-width-height: 1519.2px;
+  --default-layout-height-footer: 502px;
+  --default-layout-width-footer: 1519.6px;
+  --font-size-normal: 16px;
+  --margin-top-150px: 150px;
+}
+
+html {
+  /* Additional global styles for html if needed */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-sans-serif);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+.empty-space{
+  height: 100px;
+}
+
+.empty-space-20{
+  height: 20px;
+}
+.text-color-red{
+  color: #a2041b;
+}
+.padding-20-539{
+  padding: 20px 539px;
+}
+.logo-right{
+  margin-left: 95px; 
+  height: auto; 
+  width: 730px;
+}
+.logo-left{
+  margin-left: -50px;
+  height: auto;
+  max-width: 730px;
+}
+.content-right{
+  margin-top: 111px;;
+}
+.content-left{
+  margin-top: 170px;
+}
